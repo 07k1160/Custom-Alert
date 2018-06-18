@@ -23,6 +23,7 @@ class CustomAlertViewController: UIViewController {
     
     
     @IBAction func closeAlert(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
     }
     
 

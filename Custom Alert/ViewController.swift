@@ -21,6 +21,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func showAlert(_ sender: Any) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: "CustomAlertViewController")
+        present(vc!, animated: true, completion: nil)
     }
     
 }
