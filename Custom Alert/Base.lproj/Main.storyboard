@@ -66,7 +66,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.79815924657534243" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="i9G-AF-E6a" firstAttribute="leading" secondItem="goP-tt-ciw" secondAttribute="leading" constant="40" id="KrA-pN-RBA"/>
                             <constraint firstItem="i9G-AF-E6a" firstAttribute="centerX" secondItem="Exs-sc-ObC" secondAttribute="centerX" id="Wdl-zq-tu4"/>

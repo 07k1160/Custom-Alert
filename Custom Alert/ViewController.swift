@@ -22,6 +22,8 @@ class ViewController: UIViewController {
     
     @IBAction func showAlert(_ sender: Any) {
         let vc = storyboard?.instantiateViewController(withIdentifier: "CustomAlertViewController")
+        vc?.modalPresentationStyle = .custom
+        vc?.modalTransitionStyle = .crossDissolve
         present(vc!, animated: true, completion: nil)
     }
     
