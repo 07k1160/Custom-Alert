@@ -43,5 +43,43 @@
             </objects>
             <point key="canvasLocation" x="14" y="136"/>
         </scene>
+        <!--Custom Alert View Controller-->
+        <scene sceneID="N1k-Bv-yko">
+            <objects>
+                <viewController storyboardIdentifier="CustomAlertViewController" id="zjC-jO-DrQ" customClass="CustomAlertViewController" customModule="Custom_Alert" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Exs-sc-ObC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i9G-AF-E6a">
+                                <rect key="frame" x="40" y="208.5" width="294" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="7Op-Ct-jmu"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VFu-7e-ebN">
+                                <rect key="frame" x="167.5" y="318" width="39" height="30"/>
+                                <state key="normal" title="Close"/>
+                                <connections>
+                                    <action selector="closeAlert:" destination="zjC-jO-DrQ" eventType="touchUpInside" id="lnd-Dx-nVB"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="i9G-AF-E6a" firstAttribute="leading" secondItem="goP-tt-ciw" secondAttribute="leading" constant="40" id="KrA-pN-RBA"/>
+                            <constraint firstItem="i9G-AF-E6a" firstAttribute="centerX" secondItem="Exs-sc-ObC" secondAttribute="centerX" id="Wdl-zq-tu4"/>
+                            <constraint firstItem="i9G-AF-E6a" firstAttribute="centerY" secondItem="Exs-sc-ObC" secondAttribute="centerY" id="mce-Ok-3fk"/>
+                            <constraint firstItem="VFu-7e-ebN" firstAttribute="centerX" secondItem="Exs-sc-ObC" secondAttribute="centerX" id="qCu-xf-8rz"/>
+                            <constraint firstItem="VFu-7e-ebN" firstAttribute="centerY" secondItem="Exs-sc-ObC" secondAttribute="centerY" id="zDr-5q-9WP"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="goP-tt-ciw"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gRK-7S-Ru9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823" y="135"/>
+        </scene>
     </scenes>
 </document>
